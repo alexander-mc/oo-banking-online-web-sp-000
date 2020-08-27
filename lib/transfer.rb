@@ -17,7 +17,7 @@ class Transfer
     
   end
   
-  def reverse_transaction
+  def reverse_transfer
     
   end
   
