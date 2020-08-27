@@ -15,7 +15,7 @@ class Transfer
   
   def execute_transaction
     if self.valid?
-      
+      @sender.deposit
   end
   
   def reverse_transfer
