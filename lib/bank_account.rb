@@ -20,6 +20,7 @@ attr_reader :name, :balance, :status
 
   def valid?
     (@status == "open" && @balance > 0) ? true : false
+    binding.pry
   end
 
 end
